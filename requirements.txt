@@ -44,6 +44,7 @@ conda-build==3.20.5
 conda-package-handling @ file:///opt/concourse/worker/volumes/live/a7e34989-4c54-4cb6-4156-4e58ee270730/volume/conda-package-handling_1603018121300/work
 conda-verify==3.4.2
 contextlib2==0.6.0.post1
+coverage==5.5
 cryptography @ file:///opt/concourse/worker/volumes/live/aeb63a26-659e-4edb-5405-74ba8e0c76f2/volume/cryptography_1601046839724/work
 curtsies==0.3.4
 cycler==0.10.0
@@ -179,7 +180,8 @@ pyOpenSSL @ file:///tmp/build/80754af9/pyopenssl_1594392929924/work
 pyparsing==2.4.7
 pyrsistent @ file:///opt/concourse/worker/volumes/live/ff11f3f0-615b-4508-471d-4d9f19fa6657/volume/pyrsistent_1600141727281/work
 PySocks @ file:///opt/concourse/worker/volumes/live/85a5b906-0e08-41d9-6f59-084cee4e9492/volume/pysocks_1594394636991/work
-pytest==0.0.0
+pytest==6.2.2
+pytest-cov==2.11.1
 python-dateutil==2.8.1
 python-dotenv==0.15.0
 python-json-logger==2.0.1

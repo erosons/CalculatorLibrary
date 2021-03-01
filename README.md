@@ -10,7 +10,7 @@ Step 3: Install virtualenv if not available  >>> pip3 install virtualenv
 Step 4 : Create your venv >>> virtualenv whateverName —system-site-packages
 Step 5 : Activate venv >>source whateverName/bin/activate
 Step 6 : We use Lintinng to look potential error >>> pip install flake8 with combines  error and PEP 8 style checks
-           To perform unit tests to ensue no test is missed >> pip install pytest
+           To perform unit tests to ensue no test is missed >> pip install pytest, pytest-cov
             To perform and calculates how much of the code is covered by units tests  >> pip install pytest-cov
 Step 7 :  Because you have added depenencies to your project you will have to save them  in a requirement.txt file >>> pip freeze > requirements.txt
              This captures all the dependences used in your project in the requirement file
