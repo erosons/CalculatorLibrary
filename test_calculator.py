@@ -12,3 +12,6 @@ class TestCalculator:
 
     def test_subraction(self):
         assert 3 == calculator.subtract(5, 2)
+
+    def test_nuliplication(self):
+        assert 100 == calculator.multiply(10, 10)
