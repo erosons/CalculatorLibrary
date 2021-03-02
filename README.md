@@ -15,4 +15,12 @@ Step 6 : We use Lintinng to look potential error >>> pip install flake8 with com
 Step 7 :  Because you have added depenencies to your project you will have to save them  in a requirement.txt file >>> pip freeze > requirements.txt
              This captures all the dependences used in your project in the requirement file
 Step 10: As you write you code continously, you want to perform quality checks on your code with  >> flake8  - - statistics or flake8 -file.py: This check for error  and style issues.(autpep8/black for formatting)
-Step11. Create a unit file test_calculator.py  for Unit testing with pytest.  Note the prefix test is very importany that how pytest will know that file contain unit test.
+Step11. Create a unit file test_calculator.py  for Unit testing with pytest.  Note the prefix "test" is very important that how pytest will know/find the file that contain unit test.
+Step 12: Run  >>>> pytest -v  --cov=calculator   this shows more details 
+                        >>> pytest test_calculator.py
+                        >>> pytest  --cov=calculator
+ 
+Step 13 : push your changes back to the remote as necessary
+Step 14 : Create a folder extension .circleci for your build automation
+Step 15 : Create a config.yml file inside the folder extension in step 14
+            See config.yml for configuration write up
