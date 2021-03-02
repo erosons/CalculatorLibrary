@@ -1,0 +1,22 @@
+version: 2
+# a run comprised of one or more jobs, and because this run  does use workflows,it must have a build job
+jobs: 
+  builds: #required for runs that don't use workflows
+    working_directory: ~/repo
+    # next step of this job happens in a virtual environment called executor 
+    docker: #executor
+      - image: circleci/python:3.7   # This is a primary container all commands for a job execute in this container
+
+    steps: 
+      # step1 :Obtain repo from GitHub
+      - checkout
+      # step2: create virtual env env and install dependencies
+      - run:
+          name: install dependencies
+          command: |
+              pip3 install virtualenv
+              virtualenv venv
+              source venv/bin/activate
+          
+
+     
