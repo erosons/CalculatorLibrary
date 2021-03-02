@@ -1,7 +1,7 @@
 version: 2
 # a run comprised of one or more jobs, and because this run  does use workflows,it must have a build job
 jobs: 
-  builds: #required for runs that don't use workflows
+  build: #required for runs that don't use workflows
     working_directory: ~/repo
     # next step of this job happens in a virtual environment called executor 
     docker: #executor
