@@ -24,3 +24,12 @@ Step 13 : push your changes back to the remote as necessary
 Step 14 : Create a folder extension .circleci for your build automation
 Step 15 : Create a config.yml file inside the folder extension in step 14
             See config.yml for configuration write up
+Step 16 : Commit your update to repo.
+Step 17: Create account with circleci with your git/bitbucket account
+Step 18 : look for your project folder on circleci and setup project.
+
+
+NOTE  : Git Workflows is specific to Different team within an Organization  read more => Git Flow
+            : Conda or Pipenv for Dependency and environment management 
+            : Testing  => Video on getting Start with Test Guide
+            : Continous Development  (CI/CD) => These are deployable artifacts that can used  by other users or used  in other projects => Benefits  
