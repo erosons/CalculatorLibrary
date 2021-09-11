@@ -49,7 +49,14 @@ As you write you code continously, you want perform quality checks on your code 
          Create a unit test_calculator.py for Unit testing with pytest.
          Note the prefix "test" is very important that how pytest will know/find the file that contain unit test.
 
-# Step 12: Run >>>> pytest -v --cov=calculator this shows more details >>> pytest test_calculator.py >>> pytest --cov=calculator
+# Step 12:
+
+- Run >>>> pytest -v --cov=calculator
+- this shows more details >>> pytest test_calculator.py
+- > > > pytest --cov=calculator
+  > > > pip install coverage for coverage details
+- coverage report -m
+- coverage html
 
 # CI/CD
 
